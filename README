@@ -1,0 +1,25 @@
+# Geometric-Summation
+Geometric Summation of number x with n terms.
+#include<iostream>
+#include<conio.h>
+using namespace std;
+int main ()
+{
+    int x,i,n,a=1,j,s=0;
+    cout<<"Enter a number x:"<<endl;
+    cin>>x;
+     cout<<"Enter number of progressions n :"<<endl;
+    cin>>n;
+    for(i=1;i<=n;i++)
+    {
+        for(j=1;j<=i;j++)
+        {
+            a=a*x;
+        }
+        s=s+a;
+        a=1;
+    }
+    cout<<endl;
+cout<<"sum="<<s;
+     getch();
+}
