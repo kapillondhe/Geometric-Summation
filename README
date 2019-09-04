@@ -1,5 +1,4 @@
-# Geometric-Summation
-Geometric Summation of number x with n terms.
+
 #include<iostream>
 #include<conio.h>
 using namespace std;
